@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\GitHubRepository\\SiteComRazorPages\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\GitHubRepository\\SiteComRazorPages\\wwwroot\\img\\Razor Pages Site.jpg",
+      "PackagePath": "staticwebassets\\img\\Razor Pages Site.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SiteComRazorPages.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SiteComRazorPages.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.SiteComRazorPages.props",
+      "PackagePath": "build\\SiteComRazorPages.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.SiteComRazorPages.props",
+      "PackagePath": "buildMultiTargeting\\SiteComRazorPages.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.SiteComRazorPages.props",
+      "PackagePath": "buildTransitive\\SiteComRazorPages.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

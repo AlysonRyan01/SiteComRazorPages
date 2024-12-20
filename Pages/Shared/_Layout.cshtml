@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - RazorPages</title>
+    <link rel="stylesheet" href="/css/style.css" asp-append-version="true">
+</head>
+<body>
+<header class="cabecalho">
+    <div class="logo">
+        <img src="/img/Razor Pages Site.jpg" alt="">
+    </div>
+    <div class="paginacao back">
+        <nav>
+            <a href="">Clientes</a>
+            <a href="">Produtos</a>
+            <a href="">Vendas finais</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    @RenderBody()
+</main>
+
+<footer>
+    <h3>Author: Alyson Ryan Ullirsch</h3>
+    <a href="alysonullirsch8@gmail.com">alysonullirsch8@gmail.com </a>
+</footer>
+</body>
+</html>

@@ -14,4 +14,18 @@ Documentando meu site:
 
 7- Criei a Razor Page Index para ser a página principal do meu site;
 
-8- 
+8- Criei a pasta Shared para colocar os itens que podem ser usados multiplas vezes.
+
+9- Criei a classe _ViewImports para conter as configurações das páginas, como using..., @AddTagHelpers, etc.
+
+10- Criei a classe _Layout para conter o Header e o Footer das minhas páginas.
+
+11- Conectei todas as minhas Razor Pages com o _Layout, crindo a página _ViewStart.
+
+12- Criei a ViewData no title da minha página _Layout.
+
+13- Criei minha classe css dentro do wwwroot/css e linkei na classe _Layout.
+
+14- Criei os Models.
+
+15- Criei o DataContext e os Mappings.

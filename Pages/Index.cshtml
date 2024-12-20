@@ -1,19 +1,17 @@
-@page
+@page "/"
 @model SiteComRazorPages.Pages.Index
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Home";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-<div>
-    
-</div>
-</body>
-</html>
+@foreach (var cliente in Model.ListaClientes)
+{
+    <div class="espaco">
+        <p><strong>Id:</strong> @cliente.Id</p>
+        <p><strong>Nome:</strong> @cliente.Nome</p>
+        <p><strong>Fone:</strong>  @cliente.Fone</p>
+        <p><strong>Endereco:</strong>  @cliente.Endereco</p>
+    </div>
+}

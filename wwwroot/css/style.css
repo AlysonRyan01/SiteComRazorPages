@@ -1,0 +1,156 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #ffffff;
+    --fonte-principal: 'Arial';
+    --botao-azul-efeito: #3c92fa;
+    --bg: hsl(0, 100%, 10%);
+    --color: hsl(0, 0%, 100%);
+    --underline-width: 8px;
+    --underline-block-width: 20px;
+    --underline-color: hsla(180, 100%, 50%, 0.5);
+    --underline-color-hover: hsla(180, 100%, 50%, 1);
+    --underline-transition: 0.5s;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    grid-template-areas: 
+        'header'
+        'main'
+        'footer';
+
+
+}
+
+.cabecalho
+{
+    grid-area: header;
+    background-color: #275950;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.logo > img
+{
+    width: 10%;
+    padding: 1em;
+    margin-left: 1em;
+    align-self: center;
+}
+
+.paginacao
+{
+    padding: 0.5em;
+    align-self: flex-end;
+    display: flex;
+}
+
+nav > a {
+    background-image: linear-gradient(
+            to right,
+            #ffffff,
+            #ffffff 50%,
+            #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    margin-left: 1em;
+    font-weight: 700;
+}
+
+nav > a:before{
+    content: '';
+    background: #ffffff;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+    text-decoration: underline;
+}
+
+nav > a:hover {
+    background-position: 0;
+}
+
+nav > a:hover::before{
+    width: 100%;
+}
+
+
+main
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.espaco
+{
+    margin: 1em;
+    justify-self: center;
+    color: black;
+    border-radius: 20px;
+    padding: 2em;
+    width:70%;
+    height: fit-content;
+    background-color: transparent;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer
+{
+    padding: 1em;
+    background-color: #275950;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+}
+
+footer > a
+{
+    font-size: 1.5em;
+    margin-top: 1em;
+    color: var(--color);
+    text-decoration: none;
+    background-image: linear-gradient(90deg, var(--bg), var(--bg)),
+    linear-gradient(90deg, var(--underline-color), var(--underline-color));
+    background-size: var(--underline-block-width) var(--underline-width),
+    100% var(--underline-width);
+    background-repeat: no-repeat;
+    background-position-x: calc(var(--underline-block-width) * -1), 0;
+    background-position-y: 100%;
+    transition: background-position-x var(--underline-transition);
+}
