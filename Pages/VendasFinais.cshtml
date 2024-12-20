@@ -1,0 +1,16 @@
+@page "/vendas" 
+@using System.Globalization
+@model SiteComRazorPages.Pages.VendasFinais
+
+@{
+    ViewData["Title"] = "Vendas";
+}
+
+@foreach (var venda in Model.ListaVendasFinais)
+{
+    <div class="espaco">
+        <p><strong>ID:</strong> @venda.Id</p>
+        <p><strong>Valor Total:</strong> @venda.ValorTotal.ToString("C", new CultureInfo("pt-BR"))</p>
+        <p><strong>Cliente ID:</strong> @venda.ClienteId</p>
+    </div>
+}

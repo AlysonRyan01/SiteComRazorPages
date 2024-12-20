@@ -1,0 +1,21 @@
+@page "/produtos"
+@using System.Globalization
+@model SiteComRazorPages.Pages.Produtos
+
+@{
+    ViewData["Title"] = "Produtos";
+}
+
+@foreach (var produto in Model.ListaProdutos)
+{
+    <div class="espaco">
+        <p><strong>@produto.Titulo</strong></p>
+        <p><strong>Marca:</strong> @produto.Marca</p>
+        <p><strong>Modelo:</strong> @produto.Modelo</p>
+        <p><strong>Preço:</strong> @produto.Preco.ToString("C", new CultureInfo("pt-BR"))</p>
+        @foreach (var produtoImagem in produto.ProdutoImagens)
+        {
+            <p>@produtoImagem.ImagemUrl</p>
+        }
+    </div>
+}

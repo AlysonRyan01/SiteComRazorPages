@@ -36,12 +36,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/TVS'PC/Documents/MeusProjetos/SiteComRazorPages/Pages/Produtos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/TVS'PC/Documents/MeusProjetos/SiteComRazorPages/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/TVS'PC/Documents/MeusProjetos/SiteComRazorPages/Pages/Shared/_NavMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9OYXZNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TVS'PC/Documents/MeusProjetos/SiteComRazorPages/Pages/VendasFinais.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVuZGFzRmluYWlzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/TVS'PC/Documents/MeusProjetos/SiteComRazorPages/Pages/_ViewImports.cshtml]

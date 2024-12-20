@@ -348,7 +348,6 @@ C:\Users\TVS'PC\Documents\MeusProjetos\SiteComRazorPages\obj\Debug\net9.0\SiteCo
 C:\Users\TVS'PC\Documents\MeusProjetos\SiteComRazorPages\obj\Debug\net9.0\SiteComRazorPages.RazorAssemblyInfo.cs
 C:\Users\TVS'PC\Documents\MeusProjetos\SiteComRazorPages\obj\Debug\net9.0\SiteComRazorPages.sourcelink.json
 C:\Users\TVS'PC\Documents\MeusProjetos\SiteComRazorPages\obj\Debug\net9.0\scopedcss\bundle\SiteComRazorPages.styles.css
-C:\Users\TVS'PC\Documents\MeusProjetos\SiteComRazorPages\obj\Debug\net9.0\compressed\dyg4clvom4-oshoube4gd.gz
 C:\Users\TVS'PC\Documents\MeusProjetos\SiteComRazorPages\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\TVS'PC\Documents\MeusProjetos\SiteComRazorPages\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\TVS'PC\Documents\MeusProjetos\SiteComRazorPages\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -364,3 +363,4 @@ C:\Users\TVS'PC\Documents\MeusProjetos\SiteComRazorPages\obj\Debug\net9.0\refint
 C:\Users\TVS'PC\Documents\MeusProjetos\SiteComRazorPages\obj\Debug\net9.0\SiteComRazorPages.pdb
 C:\Users\TVS'PC\Documents\MeusProjetos\SiteComRazorPages\obj\Debug\net9.0\SiteComRazorPages.genruntimeconfig.cache
 C:\Users\TVS'PC\Documents\MeusProjetos\SiteComRazorPages\obj\Debug\net9.0\ref\SiteComRazorPages.dll
+C:\Users\TVS'PC\Documents\MeusProjetos\SiteComRazorPages\obj\Debug\net9.0\compressed\dyg4clvom4-faogc33qp4.gz
