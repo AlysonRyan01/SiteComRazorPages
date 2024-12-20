@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xDQbauKAGmjNAwJ/3lhf7LsrgeIlcxvSVl18W4BT2iw=",
+  "Hash": "aItmLdAC9rI0x8fK7GznK2HewEL4enpYrpM6/xu/FMI=",
   "Source": "SiteComRazorPages",
   "BasePath": "_content/SiteComRazorPages",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SiteComRazorPages\\wwwroot",
       "Source": "SiteComRazorPages",
-      "ContentRoot": "D:\\GitHubRepository\\SiteComRazorPages\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\wwwroot\\",
       "BasePath": "_content/SiteComRazorPages",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\GitHubRepository\\SiteComRazorPages\\obj\\Debug\\net9.0\\compressed\\dyg4clvom4-oshoube4gd.gz",
+      "Identity": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\obj\\Debug\\net9.0\\compressed\\dyg4clvom4-oshoube4gd.gz",
       "SourceId": "SiteComRazorPages",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHubRepository\\SiteComRazorPages\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SiteComRazorPages",
       "RelativePath": "css/style#[.{fingerprint=oshoube4gd}]?.css.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\GitHubRepository\\SiteComRazorPages\\wwwroot\\css\\style.css",
+      "RelatedAsset": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\wwwroot\\css\\style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "8r99uqof62",
       "Integrity": "pF+ptWWBvbFIkovSQmTtZcMC3ToJ+PhRIoPLtb0cLc4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\GitHubRepository\\SiteComRazorPages\\wwwroot\\css\\style.css"
+      "OriginalItemSpec": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\wwwroot\\css\\style.css"
     },
     {
-      "Identity": "D:\\GitHubRepository\\SiteComRazorPages\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\wwwroot\\css\\style.css",
       "SourceId": "SiteComRazorPages",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHubRepository\\SiteComRazorPages\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\wwwroot\\",
       "BasePath": "_content/SiteComRazorPages",
       "RelativePath": "css/style#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "D:\\GitHubRepository\\SiteComRazorPages\\wwwroot\\img\\Razor Pages Site.jpg",
+      "Identity": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\wwwroot\\img\\Razor Pages Site.jpg",
       "SourceId": "SiteComRazorPages",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHubRepository\\SiteComRazorPages\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\wwwroot\\",
       "BasePath": "_content/SiteComRazorPages",
       "RelativePath": "img/Razor Pages Site#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -83,7 +83,7 @@
   "Endpoints": [
     {
       "Route": "css/style.css",
-      "AssetFile": "D:\\GitHubRepository\\SiteComRazorPages\\obj\\Debug\\net9.0\\compressed\\dyg4clvom4-oshoube4gd.gz",
+      "AssetFile": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\obj\\Debug\\net9.0\\compressed\\dyg4clvom4-oshoube4gd.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -106,7 +106,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 04:19:13 GMT"
+          "Value": "Fri, 20 Dec 2024 14:44:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -138,7 +138,7 @@
     },
     {
       "Route": "css/style.css",
-      "AssetFile": "D:\\GitHubRepository\\SiteComRazorPages\\wwwroot\\css\\style.css",
+      "AssetFile": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -159,7 +159,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 04:19:13 GMT"
+          "Value": "Fri, 20 Dec 2024 14:44:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -175,7 +175,7 @@
     },
     {
       "Route": "css/style.css.gz",
-      "AssetFile": "D:\\GitHubRepository\\SiteComRazorPages\\obj\\Debug\\net9.0\\compressed\\dyg4clvom4-oshoube4gd.gz",
+      "AssetFile": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\obj\\Debug\\net9.0\\compressed\\dyg4clvom4-oshoube4gd.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -196,7 +196,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 04:19:13 GMT"
+          "Value": "Fri, 20 Dec 2024 14:44:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -220,7 +220,7 @@
     },
     {
       "Route": "css/style.oshoube4gd.css",
-      "AssetFile": "D:\\GitHubRepository\\SiteComRazorPages\\obj\\Debug\\net9.0\\compressed\\dyg4clvom4-oshoube4gd.gz",
+      "AssetFile": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\obj\\Debug\\net9.0\\compressed\\dyg4clvom4-oshoube4gd.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -243,7 +243,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 04:19:13 GMT"
+          "Value": "Fri, 20 Dec 2024 14:44:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -283,7 +283,7 @@
     },
     {
       "Route": "css/style.oshoube4gd.css",
-      "AssetFile": "D:\\GitHubRepository\\SiteComRazorPages\\wwwroot\\css\\style.css",
+      "AssetFile": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -304,7 +304,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 04:19:13 GMT"
+          "Value": "Fri, 20 Dec 2024 14:44:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -328,7 +328,7 @@
     },
     {
       "Route": "css/style.oshoube4gd.css.gz",
-      "AssetFile": "D:\\GitHubRepository\\SiteComRazorPages\\obj\\Debug\\net9.0\\compressed\\dyg4clvom4-oshoube4gd.gz",
+      "AssetFile": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\obj\\Debug\\net9.0\\compressed\\dyg4clvom4-oshoube4gd.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -349,7 +349,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 04:19:13 GMT"
+          "Value": "Fri, 20 Dec 2024 14:44:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -381,7 +381,7 @@
     },
     {
       "Route": "img/Razor Pages Site.g5ji6w2sf0.jpg",
-      "AssetFile": "D:\\GitHubRepository\\SiteComRazorPages\\wwwroot\\img\\Razor Pages Site.jpg",
+      "AssetFile": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\wwwroot\\img\\Razor Pages Site.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -402,7 +402,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 01:53:23 GMT"
+          "Value": "Fri, 20 Dec 2024 14:44:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -426,7 +426,7 @@
     },
     {
       "Route": "img/Razor Pages Site.jpg",
-      "AssetFile": "D:\\GitHubRepository\\SiteComRazorPages\\wwwroot\\img\\Razor Pages Site.jpg",
+      "AssetFile": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\SiteComRazorPages\\wwwroot\\img\\Razor Pages Site.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -447,7 +447,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 01:53:23 GMT"
+          "Value": "Fri, 20 Dec 2024 14:44:38 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -8,11 +8,8 @@ namespace SiteComRazorPages.Pages;
 
 public class Index : PageModel
 {
-    public List<Cliente> ListaClientes { get; set; } = new();
-    
-    public void OnGet([FromServices] DataContext dataContext)
+    public void OnGet()
     {
-        var clientes = dataContext.Clientes.AsNoTracking().ToList();
-        ListaClientes = clientes;
+        
     }
 }
